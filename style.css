@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.735);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items:initial;
+    padding: 20px 100px; /* x y : x for top-bottom and y for right-left */
+}
+.logo{
+    text-decoration:none;
+    color:rgb(209, 204, 204);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+.navigation a{  /* nav bar t3 garry's mod sen3a ftransition */
+    color: rgb(132, 103, 65) ;
+    text-decoration:none ;
+    font-size: 1.1em; 
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.navigation a:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+section {
+    padding: 100px 200px ;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(gif.webp) no-repeat ;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.main h2{ /* hello i'm ramy */
+    color: rgb(0, 0, 0);
+    font-size: 1,8em;
+    margin-top: 50px;
+}
+.main h2 span{ /* Web developer */
+    color:rgb(132, 103, 65);
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 3em;
+}
+.main h3{ /*Website Dev at first place! */
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.main-btn{
+    color: #fff;
+    background-color: rgb(132, 103, 65);
+    border-bottom: 5px solid #000;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9em 2em;
+    letter-spacing: 1.4px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.main-btn:hover { /* nbdlha 3la 7sab lbg */
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.15);
+    border-bottom: 5px solid rgb(132, 103, 65);
+    transition: 0.5s ease;
+}
+.social-icons a{
+    color: #000;
+    font-size: 1.8em;
+    padding-right: 50px;
+    padding-top: 0px;
+}
+.social-icons i:hover{
+    color: rgb(132, 103, 65);
+    transition: 0.3s;
+    transform: scale(1.1);
+
+}
+.cards{
+    background-color: rgb(0, 0, 0);
+}
+.title{ /*services*/
+    display: flex;
+    justify-content: center;
+    color: rgb(132, 103, 65);
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 20em;
+    box-shadow: 10px 15px 50px rgba(132 103 65/ 0.5);
+    border-radius: 25px ;
+    padding: 19px;
+    margin: 17px;
+}
+.card:hover{
+    background-color: rgb(132, 103, 65);
+    transform: scale(1.14);
+    transition: 0.6s ease;
+}
+.icon{
+    color: rgb(132, 103, 65);
+    font-size: 7em ;
+    text-align: center;
+}    
+.icon:hover{
+    color: black;
+    transition: 0.6s;
+}
+/* n9dro ndiro class info wndiro text-allign: center bch tji fihom g3 */
+.info h3{
+    text-align: center;
+    color: #000;
+    font-style: Bold;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.info h4{
+    text-align: center;
+    color: #000;
+    font-style: normal;
+    font-size: 1em;
+}
+.projects { /* projects */
+    background: rgb(255, 255, 255);
+}
+.projects .content{
+    margin-top: 30px;
+}
+.pcard {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    width: 22Em;
+    min-height: 14em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.pcard:hover{
+    transform: scale(1.1);
+    border: 3px solid rgb(132, 103, 65);
+}
+.image img{
+    width: 100%;
+}
+.pcard:hover .image{
+    opacity: 0.8 ;
+    transition: 0.8s;
+}
+.pinfo{
+    padding: 12px;
+} 
+.pcategorie{
+    font-size: 18px;
+    text-align: center;
+}
+.project-title{
+    color: rgb(132, 103, 65);
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    color:blue;
+}
+.more-details:hover{
+    color: rgb(117, 49, 157);
+    transition: 0.5s;
+}
+abbr{
+    font-style: italic;
+    color: red;
+}
+.cards-contact{
+    background-color: rgb(255, 255, 255);
+}
+.carda {
+    background-color: rgb(255, 255, 255);
+    width: 20em;
+    box-shadow: 30px 30px 100px rgba(0, 0, 0, 0.7);
+    border-radius: 25px ;
+    padding: 19px;
+    margin: 17px;
+    flex-wrap: wrap;
+}
+.icona{
+    color: rgb(0, 0, 0);
+    font-size: 7.5em ;
+    text-align: center;
+}    
+.carda:hover{
+    transition: 0.5s;
+    scale: 1.1;
+}
+.cards-contact h3{
+    font-size: 2em;
+}
+.cards-contact h4{
+    font-size: 1.1em;
+}
+footer{
+    background-color: #000;
+    color:rgb(255, 255, 255);
+    padding: 0.8em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.13em;
+}
+footer .titre{
+    padding:0 0 0 40px;
+    font-size: 1.25em;
+}
+footer .titre abbr{
+    font-size: 1em;
+    color:rgb(132, 103, 65);
+    font-style: bold;
+    padding-left: 9px;
+}
+.iconsf a{
+    color: rgb(255, 255, 255);
+    padding-right: 30px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.iconsf a:hover{
+    color: rgb(132, 103, 65);
+    transition: 0.5s;
+}
+
+
